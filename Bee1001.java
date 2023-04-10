@@ -10,10 +10,11 @@ Saída
 Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Cuide para que tenha um espaço antes e depois do sinal de igualdade, conforme o exemplo abaixo.
  */
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Bee1001 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
         int a = sc.nextInt();
